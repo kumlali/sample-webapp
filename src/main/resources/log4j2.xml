@@ -4,7 +4,7 @@
     <Console name="Console" target="SYSTEM_OUT">
       <PatternLayout pattern="%-5p %d{dd/MM/yyyy HH:mm:ss} [%t] %m [%c:%L] [%X{serverName}] %n"/>
     </Console>
-    <File name="File" fileName="${env:CATALINA_BASE}\logs\sample-webapp.log">
+    <File name="File" fileName="${sys:catalina.base}/logs/sample-webapp.log">
       <PatternLayout pattern="%-5p %d{dd/MM/yyyy HH:mm:ss} [%t] %m [%c:%L] [%X{serverName}] %n"/>
     </File>
     <!--
