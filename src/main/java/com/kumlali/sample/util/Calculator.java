@@ -12,19 +12,19 @@ public class Calculator {
   
   public final int subtract (int x, int y) {
     int result = x - y;
-    logger.trace("{} + {} = {}", x, y, result);
+    logger.trace("{} - {} = {}", x, y, result);
     return result;    
   }
 
   public final int multiply (int x, int y) {
     int result = x * y;
-    logger.trace("{} + {} = {}", x, y, result);
+    logger.trace("{} * {} = {}", x, y, result);
     return result;    
   }
 
   public final float divide (int x, int y) {
     float result = x / y;
-    logger.trace("{} + {} = {}", x, y, result);
+    logger.trace("{} / {} = {}", x, y, result);
     return result;    
   }
 
